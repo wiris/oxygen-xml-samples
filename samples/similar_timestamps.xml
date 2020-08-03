@@ -1,0 +1,28 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd">
+<topic id="topic-1">
+ <title>Snowdrop</title>
+<p><?oxy_insert_start author="John" timestamp="20180202T130229+0200"?>insert<?oxy_insert_end?></p>
+<?oxy_insert_start author="Johns" timestamp="20180202T130233+0200"?>
+<foreign>
+    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+        <mml:mrow>
+            <mml:msup>
+              <mml:mi>a</mml:mi>
+              <mml:mn>2</mml:mn>
+            </mml:msup>
+            <mml:mo>=</mml:mo>
+            <mml:msup>
+              <mml:mi>b</mml:mi>
+              <mml:mn>2</mml:mn>
+            </mml:msup>
+            <mml:mo>+</mml:mo>
+            <mml:msup>
+              <mml:mi>c</mml:mi>
+              <mml:mn>2</mml:mn>
+            </mml:msup>
+        </mml:mrow>
+    </mml:math>
+</foreign>
+<?oxy_insert_end?>
+</topic>

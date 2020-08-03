@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/dita/v1.3/os/part2-tech-content/tech-content-dita-source/dita-1.3-specification-base.ditamap">
+<topic id="topic-1">
+   <title>MathType for OxygenXML - DITA1.3</title>
+   <body>
+        <p>In elementary algebra, the <b>quadratic formula</b> is the solution of the quadratic equation.</p>
+        <mathml>
+            <m:math
+                xmlns:m="http://www.w3.org/1998/Math/MathML">
+                <m:mi>x</m:mi>
+                <m:mo>=</m:mo>
+                <m:mfrac>
+                    <m:mrow>
+                        <m:mo>-</m:mo>
+                        <m:mi>b</m:mi>
+                        <m:mo>&#xB1;</m:mo>
+                        <m:msqrt>
+                            <m:msup>
+                                <m:mi>b</m:mi>
+                                <m:mn>2</m:mn>
+                            </m:msup>
+                            <m:mo>-</m:mo>
+                            <m:mn>4</m:mn>
+                            <m:mi>a</m:mi>
+                            <m:mi>c</m:mi>
+                        </m:msqrt>
+                    </m:mrow>
+                    <m:mrow>
+                        <m:mn>2</m:mn>
+                        <m:mi>a</m:mi>
+                    </m:mrow>
+                </m:mfrac>
+            </m:math>
+        </mathml>
+
+        <p><b>Water is made from two molecules</b> - Hydrogen and Oxygen. If you put the two gasses together, along with energy, you can make water.</p>
+        <mathml>
+            <m:math class="wrs_chemistry"
+                xmlns:m="http://www.w3.org/1998/Math/MathML">
+                <m:msub>
+                    <m:mi mathvariant="normal">H</m:mi>
+                    <m:mn>2</m:mn>
+                </m:msub>
+                <m:mfenced>
+                    <m:mi mathvariant="normal">g</m:mi>
+                </m:mfenced>
+                <m:mo>+</m:mo>
+                <m:msub>
+                    <m:mi mathvariant="normal">O</m:mi>
+                    <m:mn>2</m:mn>
+                </m:msub>
+                <m:mfenced>
+                    <m:mi mathvariant="normal">g</m:mi>
+                </m:mfenced>
+                <m:mo>&#x21CC;</m:mo>
+                <m:mn>2</m:mn>
+                <m:msub>
+                    <m:mi mathvariant="normal">H</m:mi>
+                    <m:mn>2</m:mn>
+                </m:msub>
+                <m:mi mathvariant="normal">O</m:mi>
+                <m:mfenced>
+                    <m:mi mathvariant="normal">l</m:mi>
+                </m:mfenced>
+            </m:math>
+        </mathml>
+
+        <div>
+            The entire formula for the surface area of a cylinder is 
+            <mathml>
+                <m:math
+                    xmlns:m="http://www.w3.org/1998/Math/MathML">
+                    <m:mn>2</m:mn>
+                    <m:msup>
+                        <m:mi>&#x3C0;r</m:mi>
+                        <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>&#x3C0;rh</m:mi>
+                </m:math>
+            </mathml>
+        </div>
+    </body>
+</topic>

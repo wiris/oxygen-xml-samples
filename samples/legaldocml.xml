@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd " 
+	xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17">
+	<debate name="hansard">
+		<meta>
+			<identification source="#palmirani">
+				<FRBRWork>
+					<FRBRthis value="/akn/ke/debaterecord/2011-06-10/!main"/>
+					<FRBRuri value="/akn/ke/debaterecord/2011-06-10"/>
+					<FRBRdate date="2011-06-10" name="generation"/>
+					<FRBRauthor href="#parliament" as="#author"/>
+					<FRBRcountry value="ak"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/akn/ke/minutes/2011-06-10/eng@/!main"/>
+					<FRBRuri value="/akn/ke/minutes/2011-06-10/eng@"/>
+					<FRBRdate date="2011-06-25" name="markup"/>
+					<FRBRauthor href="#palmirani" as="#editor"/>
+					<FRBRlanguage language="eng"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/akn/ke/minutes/2011-06-10/eng@/!main.xml"/>
+					<FRBRuri value="/akn/ke/minutes/2011-06-10/eng@.akn"/>
+					<FRBRdate date="2011-06-25" name="publication"/>
+					<FRBRauthor href="#palmirani" as="#editor"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2011-06-10" name="internal" showAs="Internal Use Only" number="333"/>
+			<analysis source="#palmirani">
+				<parliamentary>
+					<voting eId="vot1" href="#summary_1" refersTo="#dbsect_2" outcome="#approved">
+						<quorum eId="vot1-quo1" refersTo="#majority" value="80"/>
+						<count eId="vot1-cnt2" refersTo="#ayes" href="#quantity_1" value="72"/>
+						<count eId="vot1-cnt3" refersTo="#noes" href="#quantity_2" value="34"/>
+					</voting>
+					<recount eId="rct1" href="#sub2-spe02" refersTo="#dbsect_2" outcome="#approved">
+						<count eId="vot-cnt1" refersTo="#ayes" href="#quantity_3" value="76"/>
+					</recount>
+				</parliamentary>
+			</analysis>
+			<references source="#palmirani">
+				<TLCOrganization eId="parliament" href="/ontology/organization/akn/parliament" showAs="Parliament"/>
+				<TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document"/>
+				<TLCRole eId="editor" href="/ontology/role/akn/editor" showAs="Editor of Document"/>
+				<TLCRole eId="speaker" href="/ontology/role/akn/speaker" showAs="Mr. Speaker"/>
+				<TLCRole eId="ministerEducation" href="/ontology/role/akn/mes" showAs="Minister for Education and Sports"/>
+				<TLCRole eId="ministerInterior" href="/ontology/role/akn/ministerInterior" showAs="Minister for Interior"/>
+				<TLCPerson eId="palmirani" href="/ontology/person/ita/editors/palmirani" showAs="palmirani"/>
+				<TLCProcess eId="approved" href="/ontology/process/ita/editors/approved" showAs="Approved"/>
+				<TLCPerson eId="alfa" href="/ontology/person/akn/parliament/alfa" showAs="Mr. Alfa"/>
+				<TLCPerson eId="beta" href="/ontology/person/akn/parliament/beta" showAs="Mr. Beta"/>
+				<TLCPerson eId="gamma" href="/ontology/person/akn/parliament/gamma" showAs="Mr. Gamma"/>
+				<TLCPerson eId="delta" href="/ontology/person/akn/parliament/delta" showAs="Mr. Delta"/>
+				<TLCPerson eId="epsilon" href="/ontology/person/akn/parliament/eta" showAs="Mr. epsilon"/>
+				<TLCPerson eId="kappa" href="/ontology/person/akn/parliament/kappa" showAs="Mr. Kappa"/>
+				<TLCPerson eId="eta" href="/ontology/person/akn/parliament/eta" showAs="Mr. Eta"/>
+				<TLCPerson eId="zeta" href="/ontology/person/akn/parliament/zeta" showAs="Mr. zeta"/>
+				<TLCConcept eId="majority" href="/ontology/concept/akn/majority" showAs="Quorum Majority"/>
+				<TLCConcept eId="ayes" href="/ontology/concept/akn/ayes" showAs="AYES"/>
+				<TLCConcept eId="noes" href="/ontology/concept/akn/noes" showAs="NOES"/>
+			</references>
+			<notes source="#palmirani">
+				<note eId="not01">
+					<p>BES: definition of Educational System</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<p class="heading">MATHTYPE FOR OXYGENXML - LEGALDOCML AKOMA NTOSO</p>
+		</preface>
+		<debateBody>
+			<debateSection eId="dbsect_1" name="motions">
+				<debateSection eId="dbsect_1__dbsect_1" name="motion">
+					<p>
+								In elementary algebra, the 
+								<b>quadratic formula</b> is the solution of the quadratic equation.
+							
+							</p>
+							<foreign>
+								<math 
+									xmlns="http://www.w3.org/1998/Math/MathML">
+									<mi>x</mi>
+									<mo>=</mo>
+									<mfrac>
+										<mrow>
+											<mo>-</mo>
+											<mi>b</mi>
+											<mo>&#xB1;</mo>
+											<msqrt>
+												<msup>
+													<mi>b</mi>
+													<mn>2</mn>
+												</msup>
+												<mo>-</mo>
+												<mn>4</mn>
+												<mi>a</mi>
+												<mi>c</mi>
+											</msqrt>
+										</mrow>
+										<mrow>
+											<mn>2</mn>
+											<mi>a</mi>
+										</mrow>
+									</mfrac>
+								</math>
+							</foreign>
+							<p>
+								<b>Water is made from two molecules</b> - Hydrogen and Oxygen. If you put the two gasses together, along with energy, you can make water.
+							</p>
+							<foreign>
+								<math class="wrs_chemistry" 
+									xmlns="http://www.w3.org/1998/Math/MathML">
+									<msub>
+										<mi mathvariant="normal">H</mi>
+										<mn>2</mn>
+									</msub>
+									<mfenced>
+										<mi mathvariant="normal">g</mi>
+									</mfenced>
+									<mo>+</mo>
+									<msub>
+										<mi mathvariant="normal">O</mi>
+										<mn>2</mn>
+									</msub>
+									<mfenced>
+										<mi mathvariant="normal">g</mi>
+									</mfenced>
+									<mo>&#x21CC;</mo>
+									<mn>2</mn>
+									<msub>
+										<mi mathvariant="normal">H</mi>
+										<mn>2</mn>
+									</msub>
+									<mi mathvariant="normal">O</mi>
+									<mfenced>
+										<mi mathvariant="normal">l</mi>
+									</mfenced>
+								</math>
+								</foreign>
+							<p>
+								The entire formula for the surface area of a cylinder is         
+							</p>
+								<foreign>
+								<math 
+									xmlns="http://www.w3.org/1998/Math/MathML">
+									<mn>2</mn>
+									<msup>
+										<mi>&#x3C0;r</mi>
+										<mn>2</mn>
+									</msup>
+									<mo>+</mo>
+									<mn>2</mn>
+									<mi>&#x3C0;rh</mi>
+								</math>
+								</foreign>
+				</debateSection>
+			</debateSection>
+		</debateBody>
+	</debate>
+</akomaNtoso>

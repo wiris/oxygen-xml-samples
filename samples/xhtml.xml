@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC
+    "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN"
+    "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <title>MathType for OxygenXML - XHTML</title>
+  </head>
+  <body>
+    <p>
+        In elementary algebra, the <b>quadratic formula</b> is the solution of the quadratic equation.
+    </p>
+    <p>
+			<math>
+				<mi>x</mi>
+				<mo>=</mo>
+				<mfrac>
+					<mrow>
+						<mo>-</mo>
+						<mi>b</mi>
+						<mo>&#xB1;</mo>
+						<msqrt>
+							<msup>
+								<mi>b</mi>
+								<mn>2</mn>
+							</msup>
+							<mo>-</mo>
+							<mn>4</mn>
+							<mi>a</mi>
+							<mi>c</mi>
+						</msqrt>
+					</mrow>
+					<mrow>
+						<mn>2</mn>
+						<mi>a</mi>
+					</mrow>
+				</mfrac>
+			</math>
+    </p>
+
+    <p><b>Water is made from two molecules</b> - Hydrogen and Oxygen. If you put the two gasses together, along with energy, you can make water.</p>
+    <p>
+			<math class="wrs_chemistry">
+					<msub>
+							<mi mathvariant="normal">H</mi>
+							<mn>2</mn>
+					</msub>
+					<mfenced>
+							<mi mathvariant="normal">g</mi>
+					</mfenced>
+					<mo>+</mo>
+					<msub>
+							<mi mathvariant="normal">O</mi>
+							<mn>2</mn>
+					</msub>
+					<mfenced>
+							<mi mathvariant="normal">g</mi>
+					</mfenced>
+					<mo>&#x21CC;</mo>
+					<mn>2</mn>
+					<msub>
+							<mi mathvariant="normal">H</mi>
+							<mn>2</mn>
+					</msub>
+					<mi mathvariant="normal">O</mi>
+					<mfenced>
+							<mi mathvariant="normal">l</mi>
+					</mfenced>
+			</math>
+    </p>
+
+    <p>
+        The entire formula for the surface area of a cylinder is 
+			<math>
+					<mn>2</mn>
+					<msup>
+							<mi>&#x3C0;r</mi>
+							<mn>2</mn>
+					</msup>
+					<mo>+</mo>
+					<mn>2</mn>
+					<mi>&#x3C0;rh</mi>
+			</math>
+    </p>
+  </body>
+</html>
